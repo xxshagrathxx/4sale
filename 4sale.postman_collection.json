@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "981fe5bc-2f80-4d9a-9acf-d89fe1425d20",
+		"name": "4sale",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11105010"
+	},
+	"item": [
+		{
+			"name": "Providers",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v1/users?statusCode=authorised",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"users"
+					],
+					"query": [
+						{
+							"key": "provider",
+							"value": "DataProviderY",
+							"disabled": true
+						},
+						{
+							"key": "statusCode",
+							"value": "authorised"
+						},
+						{
+							"key": "balanceMin",
+							"value": "201",
+							"disabled": true
+						},
+						{
+							"key": "balanceMax",
+							"value": "399",
+							"disabled": true
+						},
+						{
+							"key": "currency",
+							"value": "GBP",
+							"disabled": true
+						},
+						{
+							"key": "limit",
+							"value": "5",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
